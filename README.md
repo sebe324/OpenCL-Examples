@@ -12,4 +12,4 @@ Few examples of using OpenCL.
 
 This [tutorial](https://www.youtube.com/playlist?list=PLzy5q1NUJKCJocUKsRxZ0IPz29p38xeM-) is quite helpful. Really good and to the point.
 
-I downloaded the sdk from this [repo](https://github.com/GPUOpen-LibrariesAndSDKs/OCL-SDK).
+I downloaded the sdk for amd from this [repo](https://github.com/GPUOpen-LibrariesAndSDKs/OCL-SDK). I think they removed it from their site for some reason.
