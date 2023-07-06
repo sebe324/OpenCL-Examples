@@ -22,7 +22,6 @@ int main()
 	for (int r = 0; r < rows; r++)
 		for (int c = 0; c < cols; c++)
 			array[r * cols + c]=r;
-	std::cout << *array << std::endl;
 	cl::Buffer buf(context, CL_MEM_READ_WRITE | CL_MEM_HOST_READ_ONLY | CL_MEM_COPY_HOST_PTR, sizeof(int) * size, array);
 	cl::Kernel kernel(program, "ProcessTwoDimArray");
 	kernel.setArg(0, buf);
